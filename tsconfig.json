@@ -1,0 +1,17 @@
+{
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ],
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true, //允许引用没有默认导出的模块
+    "outDir": "./",  //将输出结构重定向到目录
+  },
+  "files": ["src/utils/geo/china.json"],
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "src/**/*.js", "src/**/*.json"],
+}
